@@ -1,0 +1,136 @@
+
+.form{
+	margin-top: 40px;
+}
+.create{
+	margin:10px;
+}
+.connect{
+	margin-left: 50px;
+}
+.facebook{
+	width: 100%;
+	background-color: #3B5998;
+	border:none;
+	color: white;
+	height: 40px;
+	border-radius: 2px;
+	margin-bottom: 15px;
+	padding: 5px;
+   
+}
+.google{
+	width: 100%;
+	background-color: #DB4437;
+	border:none;
+    color: white;
+    height: 40px;
+    border-radius: 2px;
+    padding: 5px;
+    margin-bottom: 15px
+
+}
+.or{
+	text-align: center;
+	font-size: 15px;
+}
+
+.name{
+	width: 97%;
+	border:none;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	margin:5px;
+	outline: none;
+}
+.btn{
+	border-radius: 5px;
+	border:none;
+	margin-top: 15px;
+	height: 40px;
+	font-size: 20px;
+	color: white;
+	background-color: #4299E1;
+	padding: 5px;
+}
+
+.register{
+	width: 100%;
+}
+
+.signin{
+	width: 50%;
+    float: left;
+}
+
+.forgot-pw{
+	color:#6C99E1;
+	float: right;
+	margin-top: 20px;
+}
+.login{
+	margin-top: 20px;
+	text-align: center;
+	color: #6C99E1;
+
+}
+@media only screen and (min-width: 768px){
+	.facebook{
+		width: 35%;
+		float: left;
+	}
+	.google{
+		width:35%;
+		float: right;
+	}
+	.or{
+
+	}
+
+	.first-name{
+		width: 48%;
+	}
+	.last-name{
+		width: 48%;
+	}
+	.sub-btn{
+		width: 30%;
+	}
+}
+@media only screen and (min-width: 1024px){
+	
+	.form{
+		width: 48%;
+		padding: 15px;
+		box-shadow: 2px 2px 2px 2px;
+	}
+	.connect{
+		margin-left:80px;
+	}
+	.facebook{
+		width: 40%;
+	}
+	.google{
+		width: 40%;
+	}
+	
+
+	.name{
+
+		font-size: 15px;
+	}
+
+	.first-name{
+		width: 46%;
+		margin-right: 10px;
+	
+	}
+	.last-name{
+		width: 46%;
+	}
+	.sub-btn{
+		width: 40%;
+		font-size: 15px;
+		height: 40px;
+	}
+}
